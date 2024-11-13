@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy New Year</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div id="messageContainer">
+    <h1>Happy New Year, [Sister's Name]!</h1>
+    <p class="message">
+        Dear [Sister's Name], <br><br>
+        As we step into another year, I want you to know how much you mean to me. You've been my biggest support, my closest friend, and my source of endless laughter. I hope this New Year brings you all the happiness and success you deserve. Here's to another year of memories, adventures, and dreams. <br><br>
+        Love, <br>
+        [Your Name]
+    </p>
+    </div>
+
+    <!-- Button to open the password prompt -->
+    <button id="privateButton">I'm in Private</button>
+    
+    <!-- Password input and secret message container -->
+    <div id="privateContainer" class="hidden">
+    <input type="password" id="passwordInput" placeholder="Enter Password">
+    <button onclick="checkPassword()">Submit</button>
+    <p id="responseMessage"></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
